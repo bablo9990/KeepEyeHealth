@@ -13,8 +13,8 @@ def is_mouse_position_stable():
     return current_position == new_position
 
 # Set file paths
-file = os.path.join(os.getcwd(), 'Eye', 'main.py')
-file_water = os.path.join(os.getcwd(), 'Water', 'main.py')
+file = os.path.join(os.getcwd(), 'Exercises', 'main.py')
+file_water = os.path.join(os.getcwd(), 'WaterMessage', 'main.py')
 file_glasses = os.path.join(os.getcwd(), 'Glasses', 'main.py')
 
 def run_eye():
